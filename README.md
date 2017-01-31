@@ -38,5 +38,9 @@ bin\mallet train-topics  --input mydata.mallet --num-topics 3 --output.gz --tuto
 
 NOTE:
 1) outputs every word in your corpus of materials and the topic it belongs to into a compressed file (output.gz)
+
+
 2) outputs a text document showing you what the top key words are for each topic (tutorial_keys.txt)
+
+
 3) outputs a text file indicating the breakdown, by percentage, of each topic within each original text file you imported     (tutorial_composition.txt)
